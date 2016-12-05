@@ -3,4 +3,11 @@ layout : default
 ---
 
 <h1>News</h1>
-<p>Watch!!!</p>
+<ul>
+	{% for post in site.posts %}
+	<li>
+		<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+		<p>{{post.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>

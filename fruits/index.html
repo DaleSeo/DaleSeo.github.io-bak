@@ -1,0 +1,13 @@
+---
+layout : default
+---
+
+<h1>Fruits</h1>
+<ul>
+	{% for fruit in site.data.fruits %}
+	<li>
+		<img src="{{site.baseurl}}/img/{{fruit.image}}" width="100" alt="{{fruit.title}}" />
+		{{fruit.title}}({{fruit.color}})
+	</li>
+	{% endfor %}
+</ul>

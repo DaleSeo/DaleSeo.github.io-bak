@@ -1,0 +1,11 @@
+- title: Apple
+  color: red
+  image: apple.jpg
+
+- title: Banana
+  color: yellow
+  image: banana.jpg
+
+- title: Melon
+  color: green
+  image: melon.jpg
